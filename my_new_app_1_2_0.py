@@ -14,7 +14,7 @@ ________________________________________________________________________________
 
 
 
-import tkFont
+
 import json
 from difflib import *
 
@@ -111,7 +111,7 @@ root.config(menu=menubar)
 
 
 
-l1 = Label(root,text="My Dictionary" ,font = ('Alba Super',30),fg='blue')
+l1 = Label(root,text="My Dictionary" ,fg='blue')
 l1.grid(row=0,column=0)
 
 l2 = Label(root,text="   Enter Your word\t")
@@ -126,7 +126,7 @@ e1 = Entry(root,textvariable=search_text,width=30)
 e1.grid(row=2,column=1,columnspan=2)
 
 
-lsb1 = Listbox(root,height=30,width=90,font = ('teen bd',15),bg='white',fg='blue')
+lsb1 = Listbox(root,height=30,width=90,bg='white',fg='blue')
 lsb1.grid(row=3,column=0,rowspan=2,columnspan=4)
 
 
